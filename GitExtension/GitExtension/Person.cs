@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace GitExtension
 {
-    internal class Person
+    public class Person
     {
+        public string Name { get; set; }
     }
 }
